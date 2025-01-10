@@ -28,9 +28,10 @@
     background: #F6FAFD;
 }
 
+/* Navbar Start */
 nav {
     display: flex;
-    padding: 30px 200px 0px 280px;
+    padding: 30px 200px 20px 280px;
 }
 
 .navbar-logo {
@@ -92,4 +93,259 @@ a:hover {
 .войти:hover {
     background: #099B79;
 }
+/* Navbar End */
+/* Header Start */
+.header {
+    border: 1px dashed #000000;
+}
 
+header {
+    display: flex;
+    padding: 110px 100px 153px 280px;
+}
+
+.header-left-h1 {
+    color: #000000;
+    font-size:36px ;
+    font-family: m-700;
+    padding-bottom: 30px;
+}
+
+.header-left-span {
+    color: green;
+}
+
+.header-left-p {
+    color: #222222;
+    font-size:20px ;
+    font-family: m-500;
+    padding-bottom: 50px;
+}
+
+.header-left-bottom {
+    display: flex;
+    /* justify-content: space-between; */
+    width: 532px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: #F2F0FE;
+    margin-bottom: 50px;
+}
+
+input {
+    padding: 20px 191px 20px 19px;
+    border: none;
+    background-color: inherit;
+}
+
+.найти {
+    width: 154px;
+    height: 60px;
+    border-radius: 50px;
+    background: #FBA457;
+    border: none;
+    color: #F6FAFD;
+    font-size:16px ;
+    font-family: m-700;
+    cursor: pointer;
+}
+
+.найти:hover {
+    background: #fa8926;
+}
+
+.header-left-p2 {
+    color: #222222;
+    font-size:16px ;
+    font-family: m-500;
+    padding-bottom: 30px;
+}
+
+#bottom-1 {
+    width: 181px;
+    height: 37px;
+    border-radius: 50px;
+    background: #F2F0FE;
+    border: none;
+    color: #222222;
+    font-size:13px ;
+    font-family: m-400;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#bottom-1:hover {
+    background: #ffffff;
+    border: 1px solid #149e5e;
+    color: #0f7a48;
+}
+
+#bottom-2 {
+    width: 181px;
+    height: 37px;
+    border-radius: 50px;
+    background: #F2F0FE;
+    border: none;
+    color: #222222;
+    font-size:13px ;
+    font-family: m-400;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#bottom-2:hover {
+    background: #ffffff;
+    border: 1px solid #149e5e;
+    color: #0f7a48;
+}
+
+#bottom-3 {
+    width: 181px;
+    height: 37px;
+    border-radius: 50px;
+    background: #F2F0FE;
+    border: none;
+    color: #222222;
+    font-size:13px ;
+    font-family: m-400;
+    /* margin-right: 20px; */
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#bottom-3:hover {
+    background: #ffffff;
+    border: 1px solid #149e5e;
+    color: #0f7a48;
+}
+
+#bottom-33 {
+    width: 148px;
+    height: 37px;
+    border-radius: 50px;
+    background: #fba45713;
+    border: 1px solid #FBA457;
+    color: #FBA457;
+    font-size:13px ;
+    font-family: m-500;
+    /* margin-right: 20px; */
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#bottom-33:hover {
+    background: #fba45777;
+    color: #ff7700;
+}
+
+.header-right-img {
+    margin-top: -70px;
+    margin-left: 100px;
+}
+/* Header End */
+
+/* Актуальные ворки Start */
+.top-items {
+    padding: 120px 0px 0px 280px;
+}
+
+.top-item-1 {
+    display: flex;
+}
+
+.top-item-2 {
+    display: flex;
+}
+
+.top-img {
+    display: flex;
+}
+
+.top-items-h1 {
+    color: #222222;
+    font-size:24px ;
+    font-family: m-600;
+    padding-bottom: 48px;
+}
+
+.top-1 {
+    width: 420px;
+    height: 270px;
+    border-radius: 20px;
+    background-color:#F2F0FE;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.top-1-images {
+    margin: 20px 20px 30px 20px;
+    width: 44px;
+    height: 44px;
+}
+
+.top-h2 {
+    padding-top: 20px;
+    color: #222222;
+    font-size:18px ;
+    font-family: m-600;
+}
+
+.top-1-p {
+    color: #222222;
+    font-size:14px ;
+    font-family: m-400;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    line-height: 17px;
+}
+
+.top-1-bottom {
+    width: 380px;
+    height: 41px;
+    border-radius: 50px;
+    border: 1px solid #1DBF73;
+    background-color: #F2F0FE;
+    color: #1DBF73;
+    font-size:14px ;
+    font-family: m-500;
+    margin-left: 20px;
+}
+
+.top-2-bottom {
+    width: 380px;
+    height: 41px;
+    border-radius: 50px;
+    border: 1px solid #1DBF73;
+    background-color: #F2F0FE;
+    color: #1DBF73;
+    font-size:14px ;
+    font-family: m-500;
+    margin-left: 20px;
+}
+
+.top-1-bottom:hover {
+    background-color: #1DBF73;
+    color: #ffffff;
+}
+
+.top-2-bottom:hover {
+    background-color: #1DBF73;
+    color: #ffffff;
+}
+
+.top-item-22 {
+    width: 420px;
+    height: 270px;
+    border-radius: 20px;
+    background-color:#F2F0FE;
+}
+
+.top-22-p {
+    padding: 124px 113px 124px 113px;
+    color: #1DBF73;
+    font-size:18px ;
+    font-family: m-600;
+}
+/* Актуальные ворки End */
