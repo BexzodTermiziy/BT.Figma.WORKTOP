@@ -1,0 +1,95 @@
+@font-face {
+    font-family: m-700;
+    src: url(./fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: m-500;
+    src: url(./fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: m-400;
+    src: url(./fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: m-600;
+    src: url(./fonts/Montserrat-SemiBold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1920px;
+    height: 4089px;
+    background-color:#F6FAFD ;
+    background: #F6FAFD;
+}
+
+nav {
+    display: flex;
+    padding: 30px 200px 0px 280px;
+}
+
+.navbar-logo {
+    padding-right: 60px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    padding-right: 166px;
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-size:16px ;
+    font-family: m-500;
+}
+
+a:hover {
+    color: #099B79;
+}
+
+.navbar-bottom {
+    display: flex;
+}
+
+.регистрация {
+    width: 171px;
+    height: 40px;
+    border-radius: 50px;
+    background: #F2F0FE;
+    border: none;
+    color: #1DBF73;
+    font-size:16px ;
+    font-family: m-600;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.регистрация:hover {
+    background: #ffffff;
+}
+
+.войти {
+    width: 113px;
+    height: 40px;
+    border-radius: 50px;
+    background: #1DBF73;
+    border: none;
+    color: #F6FAFD;
+    font-size:16px ;
+    font-family: m-600;
+    cursor: pointer;
+}
+
+.войти:hover {
+    background: #099B79;
+}
+
