@@ -25,13 +25,14 @@
     max-width: 1920px;
     height: 4089px;
     background-color:#F6FAFD ;
-    background: #F6FAFD;
+    /* background: #F6FAFD; */
 }
 
 /* Navbar Start */
 nav {
     display: flex;
     padding: 30px 200px 20px 280px;
+    background: #F6FAFD;
 }
 
 .navbar-logo {
@@ -97,6 +98,7 @@ a:hover {
 /* Header Start */
 .header {
     border: 1px dashed #000000;
+    background: #F6FAFD;
 }
 
 header {
@@ -311,6 +313,7 @@ input {
     font-size:14px ;
     font-family: m-500;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 .top-2-bottom {
@@ -323,6 +326,7 @@ input {
     font-size:14px ;
     font-family: m-500;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 .top-1-bottom:hover {
@@ -347,5 +351,214 @@ input {
     color: #1DBF73;
     font-size:18px ;
     font-family: m-600;
+    cursor: pointer;
 }
 /* Актуальные ворки End */
+
+/* Топ фрилансеров Start */
+.middle {
+    padding: 100px 0px 0px 280px;
+}
+
+.middle-1 {
+    display: flex;
+}
+
+.middle-h1 {
+    color: #222222;
+    font-size:24px ;
+    font-family: m-600;
+    padding-bottom:40px ;
+}
+
+.middle-top {
+    display: flex;
+    width: 420px;
+    height: 261px;
+    border-radius: 20px;
+    background-color: #F6FAFD;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    box-shadow: 0px 16px 16px 0px #2222220A;
+}
+
+.middle-top-img {
+    padding: 20px 29px 30px 20px;
+}
+
+.middle-p {
+    color: #222222;
+    font-size:16px ;
+    font-family: m-500;
+    padding-bottom:12px;
+    padding-top: 35px;
+}
+
+.middle-h2 {
+    color: #FBA457;
+    font-size:18px ;
+    font-family: m-600;
+    padding-bottom:10px;
+}
+
+.middle-p2 {
+    color: #222222;
+    font-size:14px ;
+    font-family: m-500;
+    padding-bottom:10px;
+}
+
+.middle-buttom {
+    position: relative;
+    top: 45px;
+    left: -180px;
+    width: 380px;
+    height: 41px;
+    color: #1DBF73;
+    border-radius: 100px;
+    border: 1px solid #1DBF73;
+    cursor: pointer;
+}
+
+.middle-buttom:hover {
+    background-color: #1DBF73;
+    color: #ffffff;
+    border: 1px solid #1DBF73;
+}
+
+.top-22-p2 {
+    padding: 119px 37px 119px 37px;
+    color: #1DBF73;
+    font-size:18px ;
+    font-family: m-600;
+    cursor: pointer;
+}
+
+.m-img-1 {
+    position: absolute;
+    top: 2016px;
+    left: 593px;
+}
+/* Топ фрилансеров End */
+
+/* WorkTap start */
+.worktap {
+    padding: 100px 0px 0px 280px;
+}
+
+.worktap-h1 {
+    color: #222222;
+    font-size:24px ;
+    font-family: m-600;
+    padding-bottom:20px;
+}
+
+.worktap-p {
+    color: #222222;
+    font-size:16px ;
+    font-family: m-400;
+    padding-bottom:50px;
+}
+
+.works {
+    display: flex;
+}
+
+.works-1 {
+    margin-right: 81px;
+}
+
+.works-1-img {
+    width: 109px;
+    height: 118px;
+    padding-bottom:20px;
+}
+
+.works-12-img {
+    width: 109px;
+    height: 118px;
+    padding-bottom:20px;
+}
+
+.works-h3 {
+    color: #222222;
+    font-size:18px;
+    font-family: m-600;
+    padding-bottom:20px;
+}
+
+.works-p {
+    color: #222222;
+    font-size:14px;
+    font-family: m-400;
+    padding-bottom:100px;
+}
+/* WorkTap End */
+
+/* Как WorkTap помогает бизнесу Start */
+.help {
+    background-image: url("./img/Group\ 94.jpg");
+    padding:50px 0px 0px 280px;
+}
+
+.help-top {
+    display: flex;
+}
+
+.help-h1 {
+    color: #F6FAFD;
+    font-size:24px;
+    font-family: m-600;
+    padding-bottom:45px;
+}
+
+.help-top {
+    width: 533px;
+    height: 90px;
+    border-radius: 20px;
+    background-color: #F6FAFD;
+    box-shadow: 0px 16px 16px 0px #0000000A;
+    margin-bottom: 30px;
+}
+
+.help-img {
+    width: 50px;
+    height: 50px;
+}
+
+.help-left {
+    padding: 20px 30px 20px 20px;
+}
+
+.help-p {
+    color: #222222;
+    font-size:14px;
+    font-family: m-400;
+    padding-top: 37px;
+}
+
+.help-h2 {
+    color: #F6FAFD;
+    font-size:20px;
+    font-family: m-600;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.help-buttom {
+    width: 221px;
+    height: 69px;
+    border-radius: 50px;
+    border:none;
+    background-color: #5E4EDB;
+    color: #F6FAFD;
+    font-size:24px ;
+    font-family: m-700;
+    margin-bottom: 97px;
+    cursor: pointer;
+}
+
+.help-buttom:hover {
+    background-color: #0B0C63;
+}
+/* Как WorkTap помогает бизнесу End */
